@@ -1,0 +1,48 @@
+#https://github.com/nishanths/cocoa-hugo-theme/blob/master/exampleSite/config.toml
+baseURL = 'https://lambdas.dev/'
+languageCode = 'en-us'
+theme = 'cocoa'
+title = 'Witt - lambdas.dev'
+author = 'Arthur Dent'
+contentdir = 'content'
+layoutdir = 'layouts'
+publishdir = 'public'
+canonifyurls = true
+builddrafts = false
+
+[[menu.main]]
+name = 'Blog'
+weight = -120
+identifier = 'blog'
+url = '/blog/'
+
+[[menu.main]]
+name = 'About'
+weight = -110
+identifier = 'about'
+url = '/fixed/about'
+
+[[menu.main]]
+name = 'Projects'
+weight = -100
+identifier = 'code'
+url = '/fixed/projects'
+
+[permalinks]
+blog = 'blog/:slug/'
+
+[params]
+include_rss = true
+cachebuster = true
+latestpostscount = 5
+dateform = "Jan 2, 2006"
+dateformfull = "Mon Jan 2 2006 15:04:05 MST"
+author = 'Witt'
+email = 'lambdas.dev@google.com'
+github = '//github.com/wittbulter'
+description = "Witt's Blog"
+selfintro = 'JavaScript Engineer, interested in DX.'
+
+highlightjs = true
+avatar = 'images/avatar.gif'
+faviconfile = 'images/favicon.ico'
