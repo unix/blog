@@ -7,6 +7,6 @@
     "release": "now --target production",
     "now-build": "export gz='hugo_0.54.0_Linux-64bit.tar.gz' && yarn run wget && yarn run clone && ./hugo -t cocoa",
     "wget": "yum install -y wget && wget https://github.com/gohugoio/hugo/releases/download/v0.54.0/${gz} && tar -xzf ${gz}",
-    "clone": "rm -rf themes && git clone --depth 1 https://github.com/nishanths/cocoa-hugo-theme.git themes/cocoa"
+    "clone": "rm -rf themes && git clone --depth 1 https://github.com/wittbulter/cocoa-hugo-theme.git themes/cocoa"
   }
 }

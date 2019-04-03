@@ -44,5 +44,5 @@ description = "Witt's Blog"
 selfintro = 'JavaScript Engineer, interested in DX.'
 
 highlightjs = true
-avatar = 'images/avatar.gif'
+avatar = 'images/avatar.png'
 faviconfile = 'images/favicon.ico'
