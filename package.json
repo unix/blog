@@ -1,6 +1,7 @@
 {
   "name": "blog",
   "author": "WittBulter <nanazuimeng123@gmail.com>",
+  "license": "MIT",
   "scripts": {
     "start": "hugo -t cocoa --watch serve",
     "build": "hugo -t cocoa",
