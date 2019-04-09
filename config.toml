@@ -9,6 +9,7 @@ layoutdir = 'layouts'
 publishdir = 'public'
 canonifyurls = true
 builddrafts = false
+googleAnalytics = 'UA-110371817-3'
 
 [[menu.main]]
 name = 'Blog'
