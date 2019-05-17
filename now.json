@@ -2,7 +2,6 @@
   "version": 2,
   "name": "witt-blog",
   "alias": "lambdas.dev",
-  "regions": ["hnd1", "sfo1"],
   "builds": [
     {
       "src": "package.json",
