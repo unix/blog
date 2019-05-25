@@ -8,6 +8,7 @@ date: 2019-04-02T11:31:33+08:00
 - [aliyun-logs](https://github.com/WittBulter/aliyun-logs) - 阿里云日志 SDK
 - [want](https://github.com/WittBulter/want) - 以不下载的方式运行在线返回的命令
 - [release2](https://github.com/WittBulter/release2) - 更好的 release 命令行工具
+- [done](https://github.com/WittBulter/done) - 比 release2 好那么一点
 - [easy-jsdelivr](https://github.com/WittBulter/easy-jsdelivr) jsdelivr 界面管理与包文件查找
 - [v2ex-cli](https://github.com/WittBulter/v2ex-cli) v2ex 命令行工具
 - [simpler-paper](https://github.com/WittBulter/simpler-paper) static site 打包工具
