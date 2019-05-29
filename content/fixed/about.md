@@ -15,6 +15,3 @@ date: 2019-04-02T11:31:33+08:00
 ```js
 'lambdas.dev#gmail.com'.replace('#', String.fromCharCode(64))
 ```
-如果我没有及时回复可以尝试添加 PSN 好友: `WittBulter`。
-
-
