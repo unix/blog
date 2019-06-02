@@ -37,7 +37,9 @@ date: 2019-04-02T11:31:33+08:00
 - [koa2-typescript-guide](https://github.com/WittBulter/koa2-typescript-guide) - Koa2 与 TS 的最佳实践，包含脚手架
 - [koa-custom-response](https://github.com/WittBulter/koa-custom-response) Koa Restful 定制方法库
 - [cobot](https://github.com/WittBulter/cobot) - Gitlab 机器人框架，更语义化的事件与 Git Event 提示
-- [eslint-config](https://github.com/HaiFengFE/eslint-config) 更优雅 ESLint 约定
+- [eslint-lambdas](https://github.com/WittBulter/eslint-config-lambdas) Lambdas 风格的 ESLint
+- [tslint-lambdas](https://github.com/WittBulter/tslint-config-lambdas) Lambdas 风格的 TSLint
+- [typescript-eslint-lambdas](https://github.com/WittBulter/eslint-config-ts-lambdas) Lambdas 风格的 TS-ESLint (Yarn 2 项目支持)
 
 <p></p>
 
