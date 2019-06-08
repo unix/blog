@@ -47,3 +47,6 @@ selfintro = 'JavaScript Engineer, interested in DX.'
 highlightjs = true
 avatar = 'images/avatar.png'
 faviconfile = 'images/favicon.ico'
+
+[blackfriday]
+  extensions = ["joinLines"]
