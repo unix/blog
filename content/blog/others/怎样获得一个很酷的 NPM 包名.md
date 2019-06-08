@@ -26,7 +26,7 @@ slug: others/how-to-get-npm-package-name
 1. 首先运行 `npm owner ls <pkgname>` 获取当前包所有者的公开邮件地址
 2. 发送邮件至 **包的所有者并且抄送** `support@npmjs.com`
 
-按照 "npm disputes 的说明，要求转移的邮件内容必须要*足够的友善*，至少要包括 package 可能违反的条约、可以转移的原因 (如无维护无贡献)、包的名称以及你的 `npm username`。
+按照 "npm disputes" 的说明，要求转移的邮件内容必须要 *足够的友善* ，至少要包括 package 可能违反的条约、可以转移的原因 (如无维护无贡献)、包的名称以及你的 `npm username`。
 这里最好使用 NPM 的通知邮箱发送，便于 NPM 工作人员查询你的账号与发布记录。
 
 需要注意的是，如果你想要转移的 "npm package" 存在商标版权侵犯或者是占位问题，NPM 工作人员将立刻处理，这不在上述的 4 周流程之类。即便是备作未来使用也会被视为
