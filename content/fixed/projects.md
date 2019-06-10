@@ -14,6 +14,8 @@ date: 2019-04-02T11:31:33+08:00
 - [v2ex-cli](https://github.com/WittBulter/v2ex-cli) v2ex 命令行工具
 - [simpler-paper](https://github.com/WittBulter/simpler-paper) static site 打包工具
 - [todo-live](https://github.com/WittBulter/todo-live) todo 命令行工具
+- [docs](https://github.com/WittBulter/docs) Geek 风格的文档中心
+- [store-now](https://github.com/WittBulter/store-now) 命令行工具文件存储
 
 
 <p></p>
