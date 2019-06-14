@@ -5,6 +5,8 @@ date: 2019-04-02T11:31:33+08:00
 
 这是我开发一些有意思的项目。
 
+- [func](https://github.com/WittBulter/func) Ioc 的 command 框架
+- [cfunc](https://github.com/WittBulter/cfunc) 使用 func 构建的 func 脚手架
 - [pages](https://github.com/WittBulter/pages) - 为每个项目生成主页
 - [aliyun-logs](https://github.com/WittBulter/aliyun-logs) - 阿里云日志 SDK
 - [want](https://github.com/WittBulter/want) - 以不下载的方式运行在线返回的命令
