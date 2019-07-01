@@ -24,6 +24,7 @@ date: 2019-04-02T11:31:33+08:00
 
 - [zeit-style](https://github.com/zeit-ui/zeit-style) Zeit UI 的 CSS 实现
 - [zeit-ui/vue](https://github.com/zeit-ui/vue) Zeit UI 的 Vue 实现
+- [typographic](https://github.com/zeit-ui/typographic) 字体排版的实现
 - [zeit-ui/vue-icons](https://github.com/zeit-ui/vue-icons) vue-icon 组件，源自 Zeit Design
 - [v-decorators](https://github.com/wittbulter/v-decorators) Vue 实用 decorators 库
 - [euv](https://github.com/DhyanaChina/euv) Vue 的控制反转实现
