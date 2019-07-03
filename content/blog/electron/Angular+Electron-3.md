@@ -189,5 +189,5 @@ export class LoginService {
 
 
 现在我们几乎完成了最难以理解的部分，后面几节开始构建一些爬虫代码与界面展示逻辑。如果你也在同步的构建代码，对这一小节有任何疑问，
-都可以参见这次的 [commit](https://github.com/WittBulter/news-feed/tree/9b6a7787d9b744fdaefa030564f5f9a66c51c4c1) 来解决。
+都可以参见这次的 [commit](https://github.com/unix/news-feed/tree/9b6a7787d9b744fdaefa030564f5f9a66c51c4c1) 来解决。
 

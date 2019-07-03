@@ -153,7 +153,7 @@ loadMore (nextNumber: number):void{
 
 对于排序、筛选或其他任何逻辑都是相同的，未来我们永远只把注意力放在可观察对象上，通过少量的高可读性的代码来解决逻辑问题。
 对于刚刚解除 Angular 或 RxJS 的开发者来说，这需要一些学习时间，
-可参考 [github记录](https://github.com/WittBulter/news-feed/tree/2b8039abd28a94192083678c5f7beeb04dede025) 理解这一节。
+可参考 [github记录](https://github.com/unix/news-feed/tree/2b8039abd28a94192083678c5f7beeb04dede025) 理解这一节。
 在下一小节中，我将会默认大家已经掌握这些技能，开始着手完成剩余的用户模块。
 
 

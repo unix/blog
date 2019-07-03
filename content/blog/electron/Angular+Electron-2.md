@@ -4,7 +4,7 @@ date: 2016-03-04
 slug: electron/ng-electron-2
 ---
 
-> 本文所有代码都可以在 [github](https://github.com/WittBulter/news-feed) 找到。你可以通过 commit 历史来查看这些代码是如何一步一步构建的。
+> 本文所有代码都可以在 [github](https://github.com/unix/news-feed) 找到。你可以通过 commit 历史来查看这些代码是如何一步一步构建的。
 如果有任何问题，也可以在 github 的 issue 上提出。
 
 接前文，现在我们搭建好了一系列的环境，创建了一些初始的代码，是时候开始工作了。
@@ -58,7 +58,7 @@ export class AppRoutingModule {
  
  #### 2, 创建样式与逻辑  
  
- 现在，我们为前端页面添加一些样式与逻辑，这此的 commit 记录在[这里](https://github.com/WittBulter/news-feed/tree/5374aaa4d678a5eb98fdbfce0dfcae94cd725ead)，现在我们需要为登录界面添加逻辑与路由保护。
+ 现在，我们为前端页面添加一些样式与逻辑，这此的 commit 记录在[这里](https://github.com/unix/news-feed/tree/5374aaa4d678a5eb98fdbfce0dfcae94cd725ead)，现在我们需要为登录界面添加逻辑与路由保护。
  
  ![登录页面样式](/images/electron/electron-demo-2.png)
  
@@ -138,7 +138,7 @@ export class IpcRendererService {
 虽然做的很快，但对你并没有多少益处。  
 
 
- 这里有一些复杂，如果你希望对照当时的代码来学习，可以看这一次的 [commit](https://github.com/WittBulter/news-feed/tree/e756fff44ab931f0fc360b62664a1825bb1de665)。
+ 这里有一些复杂，如果你希望对照当时的代码来学习，可以看这一次的 [commit](https://github.com/unix/news-feed/tree/e756fff44ab931f0fc360b62664a1825bb1de665)。
  
  ok，大家也可以想象的到，现在要做的是在 electron 中新建一个事件接收器，处理一些逻辑并且将它们返回，在根文件夹下新建 `browser/ipc/index.js` 并且填充基础的代码：
 ```javascript
