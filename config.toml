@@ -33,7 +33,7 @@ url = '/fixed/projects'
 blog = 'blog/:slug/'
 
 [params]
-include_rss = true
+include_rss = false
 cachebuster = true
 latestpostscount = 5
 dateform = "Jan 2, 2006"
@@ -41,6 +41,7 @@ dateformfull = "Mon Jan 2 2006 15:04:05 MST"
 author = 'Witt'
 email = 'lambdas.dev@google.com'
 github = '//github.com/unix'
+twitter = '//twitter.com/echo_witt'
 description = "Witt's Blog"
 selfintro = 'JavaScript Engineer, interested in DX.'
 
