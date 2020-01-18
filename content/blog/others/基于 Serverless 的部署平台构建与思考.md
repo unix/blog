@@ -50,6 +50,19 @@ slug: others/thinking-under-serverless
 3. 构建服务的打包与编译
 4. 部署服务，部署至 Serverless 并搜集必要信息
 
+```
+                                  
+        [serverless bridge] --> [builder] --> [init shell]
+                         [auth]                    ↓
+[ci/cd hook] |              ↓           |--> [build service]
+[user cli]   | <--> [general service] --|
+[website]    |              ↓           |--> [deploy service]  --> [server less]
+                    [build database]                          |--> [router]
+                                                              |--> [log][health][...]
+              -----------------------------------------                   
+                          [code storage]
+```
+
 **关于取舍上的疑问：**
 
 - 我们为什么把 **编译** 与 **部署** 的工作不放在一个环境中运行？
@@ -70,18 +83,6 @@ slug: others/thinking-under-serverless
   很多让人头疼的工作。这里我们只需将通用服务端接入鉴权，其他的服务既鉴权也不鉴权，具体我们下文细说。
 
 
-```
-                                  
-        [serverless bridge] --> [builder] --> [init shell]
-                          [auth]                   ↓
-[ci/cd hook] |              ↓           |--> [build service]
-[user cli]   | <--> [general service] --|
-[website]    |              ↓           |--> [deploy service]  --> [server less]
-                    [build database]                          |--> [router]
-                                                              |--> [log][monitor][health][...]
-              -----------------------------------------                   
-                           [code storage]
-```
 
 **按上所示我们梳理一下全部的部署流程：**
 
@@ -257,7 +258,7 @@ slug: others/thinking-under-serverless
 
 同样以 `NodeJS` 为例，在大多数的 `Serverless` 平台上他们对 `req` / `res` / `context` 等对象进行了自己的封装，我们可以设计一个 `bridge.js` 来抹平之间的差异：
 
-```
+```js
 // bridge.js
 module.exports.handler = (req, res, context) => {
   // req.xx = ...
