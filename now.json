@@ -1,6 +1,10 @@
 {
   "version": 2,
   "name": "witt-blog",
-  "alias": "lambdas.dev",
-  "regions": ["hnd", "sfo"]
+  "regions": ["hnd", "sfo"],
+  "build": {
+    "env": {
+      "HUGO_VERSION": "0.54.0"
+    }
+  }
 }
