@@ -1,12 +1,12 @@
 {
   "name": "blog",
   "author": "unix <lambdas.dev@gmail.com>",
+  "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "start": "hugo -t cocoa --watch serve",
     "build": "hugo -t cocoa",
-    "release": "now --target production",
-    "now-build": "export gz='hugo_0.54.0_Linux-64bit.tar.gz' && yarn run wget && yarn run clone && ./hugo -t cocoa",
+    "now-build": "yarn run clone && rm -rf public && hugo -t cocoa",
     "wget": "yum install -y wget && wget https://github.com/gohugoio/hugo/releases/download/v0.54.0/${gz} && tar -xzf ${gz}",
     "clone": "rm -rf themes && git clone --depth 1 https://github.com/unix/cocoa-hugo-theme.git themes/cocoa"
   }

@@ -2,55 +2,5 @@
   "version": 2,
   "name": "witt-blog",
   "alias": "lambdas.dev",
-  "regions": ["hnd", "sfo"],
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@now/static-build",
-      "config": {
-        "distDir": "public"
-      }
-    }
-  ],
-  "routes": [
-    {
-      "src": "^/css/(.*)", "dest": "/css/$1",
-      "headers": {
-        "cache-control": "public,max-age=31536000,immutable"
-      }
-    },
-    {
-      "src": "^/images/(.*)", "dest": "/images/$1",
-      "headers": {
-        "cache-control": "max-age=31536000,immutable"
-      }
-    },
-    {
-      "src": "^/img/(.*)", "dest": "/img/$1",
-      "headers": {
-        "cache-control": "max-age=31536000,immutable"
-      }
-    },
-    {
-      "src": "^/tags/(.*)", "dest": "/tags/$1",
-      "headers": {
-        "cache-control": "max-age=31536000,immutable"
-      }
-    },
-    {
-      "src": "^/blog/(.*)", "dest": "/blog/$1"
-    },
-    {
-      "src": "^/categories/(.*)", "dest": "/categories/$1"
-    },
-    {
-      "src": "^/fixed/(.*)", "dest": "/fixed/$1"
-    },
-    {
-      "src": "^/(.*).html",
-      "headers": {
-        "cache-control": "public,max-age=0,must-revalidate"
-      }
-    }
-  ]
+  "regions": ["hnd", "sfo"]
 }
