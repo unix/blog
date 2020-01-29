@@ -42,7 +42,7 @@ const count = [...].reduce((pre, current) => pre + current, 0)
   - 函数表达式可以被看做赋值语句，更加简单易懂，且无法被覆盖。(常量不可以被重复声明)
   - 函数声明会在解析时被提升，存在先使用后声明。高可读的代码应当先声明再调用，使用表达式范式可以约束这一点。
   - 搭配箭头函数使用可减轻对 `this` 的思维依赖。
-  
+
 ```js
 // bad
 function addOne(value) {
@@ -192,7 +192,7 @@ if (user.age < 19 && user.age > 13) {
 }
 
 // good
-const  isTeenAgerMember = user.age < 19 && user.age > 13
+const isTeenAgerMember = user.age < 19 && user.age > 13
 if (isTeenAgerMember) // ...
 ```
 
