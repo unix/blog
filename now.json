@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "name": "witt-blog",
   "regions": ["hnd", "sfo"],
   "build": {
     "env": {

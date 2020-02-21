@@ -2,4 +2,5 @@ public
 .gitignore
 themes
 yarn-error.log
+.idea
 
