@@ -1,6 +1,6 @@
 ## blog
 
-[lambdas.dev](https://unix.bio/)
+[unix.bio](https://unix.bio/)
 
 ### LICENSE
 [MIT](LICENSE)
