@@ -1,8 +1,8 @@
 #https://github.com/nishanths/cocoa-hugo-theme/blob/master/exampleSite/config.toml
-baseURL = 'https://lambdas.dev/'
+baseURL = 'https://unix.bio/'
 languageCode = 'en-us'
 theme = 'cocoa'
-title = 'Witt - lambdas.dev'
+title = 'witt - unix.bio'
 author = 'Arthur Dent'
 contentdir = 'content'
 layoutdir = 'layouts'
@@ -39,10 +39,10 @@ latestpostscount = 5
 dateform = "Jan 2, 2006"
 dateformfull = "Mon Jan 2 2006 15:04:05 MST"
 author = 'Witt'
-email = 'lambdas.dev@google.com'
+email = 'unix.bio@google.com'
 github = '//github.com/unix'
 twitter = '//twitter.com/echo_witt'
-description = "Witt's Blog"
+description = "witt's blog"
 selfintro = 'JavaScript Engineer, interested in DX.'
 
 highlightjs = true

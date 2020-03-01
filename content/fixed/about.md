@@ -14,5 +14,5 @@ date: 2019-04-02T11:31:33+08:00
 
 你可以通过邮件联系我😌:
 ```js
-'lambdas.dev#gmail.com'.replace('#', String.fromCharCode(64))
+'unix.bio#gmail.com'.replace('#', String.fromCharCode(64))
 ```
