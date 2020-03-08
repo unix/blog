@@ -1,6 +1,4 @@
 ## blog
 
-[unix.bio](https://unix.bio/)
+My blog moved [here](https://github.com/unix/unix.bio).
 
-### LICENSE
-[MIT](LICENSE)
